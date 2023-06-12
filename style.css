@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*body
+{
+    background: url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}*/
+section
+{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+    padding: 20px;
+}
+section header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header ul li 
+{
+    list-style: none;
+    margin-left: 20px;
+}
+section header ul li a
+{
+    color: #111;
+    text-decoration: none;
+}
+section header ul li a:hover
+{
+    text-decoration: underline;
+    columns: red;
+}
+section header ul li  button
+{
+    background: #4584ef;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 400;
+}
+section .main
+{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section .main .searchBox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+section .main .searchBox .search
+{
+    width: 100%;
+    padding: 13px;
+    padding-left:45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+section .main .searchBox .icons
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+section .main .buttons
+{
+    margin-top: 30px;
+}
+section .main .buttons button
+{
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: #555;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    outline: none;
+}
+section .main .buttons button:hover
+{
+    border: 1px solid #ccc;
+}
+section .main .languages
+{
+    display: flex;
+    margin-top: 30px;
+}
+section .main .languages li
+{
+    list-style: none;
+    margin: 0 5px;
+    font-size: 13px;
+}
+section .main .languages li a
+{
+    text-decoration: none;
+    color: #1a0dab;
+}
+section .main .languages li a:hover
+{
+    text-decoration: underline;
+}
