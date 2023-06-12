@@ -1,0 +1,130 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: #000;
+}
+.advance
+{
+    color: #ff0000;
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 2px solid rgba(255,255,255,0.4);
+    background: rgba(255,255,255,0.1),rgba(0,0,0,0.4);
+    padding: 20px;
+}
+.find
+{
+    display: flex;
+    margin-left: 0;
+}
+h2
+{
+    color: #fff;
+    font-family: arial;
+}
+.contect
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.content h2
+{
+    margin-left: 350px;
+}
+form
+{
+    display: block;
+}
+label
+{
+    color: #fff;
+    font-family: arial;
+    font-size: 20px;
+}
+input#all
+{
+    width: 90%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,0.1);
+    color: #fff;
+    font-size: 1em;
+    
+}
+label.this
+{
+    color: #fff;
+    font-family: arial;
+    font-size: 20px;
+    margin-top: 20px;
+    position: relative;
+    top: 20px;
+} 
+input#this
+{
+    width: 83%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,0.1);
+    color: #fff;
+    font-size: 1em;
+    position: relative;
+    top: 20px;
+}
+
+label.any
+{
+    color: #fff;
+    font-family: arial;
+    font-size: 20px;
+    margin-top: 20px;
+    position: relative;
+    top: 25px;
+} 
+input#any
+{
+    width: 87%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,0.1);
+    color: #fff;
+    font-size: 1em;
+    position: relative;
+    top: 25px;
+}
+
+label.none
+{
+    color: #fff;
+    font-family: arial;
+    font-size: 20px;
+    margin-top: 20px;
+    position: relative;
+    top: 30px;
+} 
+input#none
+{
+    width: 87%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,0.1);
+    color: #fff;
+    font-size: 1em;
+    position: relative;
+    top: 30px;
+}
